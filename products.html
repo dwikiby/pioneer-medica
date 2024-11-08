@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Products - Pioneer Medica</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js" defer></script>
+    <style>
+      .product-grid {
+        margin-top: 2rem;
+      }
+      .back-btn {
+        display: inline-block;
+        background-color: #00a86b;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        transition: background-color 0.3s ease;
+      }
+      .back-btn:hover {
+        background-color: #008a56;
+      }
+      .product-card {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin: 1rem;
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .product-info {
+        margin-top: 1rem;
+      }
+      .read-more-btn {
+        cursor: pointer;
+        color: #007bff;
+        background: none;
+        border: none;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li class="company-name">
+            <a href="index.html#home">Pioneer Medica</a>
+          </li>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#profile">Profil</a></li>
+          <li><a href="index.html#vision-mission">Visi & Misi</a></li>
+          <li><a href="index.html#products">Produk Terbaik</a></li>
+          <li><a href="index.html#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Our Products</h1>
+      <a href="index.html" class="back-btn">Back to Home</a>
+      <div class="product-grid">
+        <!-- Product cards will be dynamically inserted here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pioneer Medica. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

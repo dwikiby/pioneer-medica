@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pioneer Medica Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li class="company-name"><a href="#home">Pioneer Medica</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#vision-mission">Visi & Misi</a></li>
+          <li><a href="#products">Produk Terbaik</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="card">
+        <h1>Selamat datang di Pioneer Medica Website</h1>
+        <img src="assets/hero-img1.jpg" alt="Hero Image" class="hero-image" />
+        <p>
+          Selamat datang di Pioneer Medica Website, tempat di mana inovasi dan
+          kualitas bertemu untuk memberikan solusi medis terbaik bagi Anda. Kami
+          berkomitmen untuk meningkatkan kesehatan dan kesejahteraan masyarakat
+          melalui produk-produk medis unggulan dan layanan yang terpercaya.
+        </p>
+      </section>
+
+      <section id="profile" class="card">
+        <h2>Profil Perusahaan</h2>
+        <p>
+          Pioneer Medica didirikan pada tahun 2024 dengan visi untuk menjadi
+          perusahaan terdepan yang menyediakan solusi medis inovatif dan
+          terpercaya di Indonesia serta Asia Tenggara. Pioneer Medica
+          berdedikasi untuk meningkatkan kesehatan masyarakat melalui produk
+          medis berkualitas tinggi dan pelayanan kesehatan yang optimal.
+        </p>
+      </section>
+
+      <section id="vision-mission" class="card">
+        <h2>Visi & Misi</h2>
+        <div class="vision">
+          <h3>Vision</h3>
+          <p>
+            Menjadi perusahaan terbaik terdepan yang menyediakan solusi media
+            inovatif dan terpercaya di Indonesia serta Asia Tenggara
+          </p>
+        </div>
+        <div class="mission">
+          <h3>Mission</h3>
+          <p>
+            Memberikan produk kesehatan berkuliatas tinggi yang terjangkau bagi
+            semua lapisan masyarakat, mendukung pelayanan kesehatan yang
+            optimal, dan membangun kemitraan yang berkelanjutan dengan tenaga
+            medis serta fasilitas kesehatan.
+          </p>
+        </div>
+      </section>
+
+      <section id="products" class="card">
+        <div class="products-header">
+          <h2>Our Products</h2>
+          <a href="products.html" class="show-more-btn">Show More</a>
+        </div>
+        <div class="product-grid"></div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Kontak Kami</h2>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pioneer Medica. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
